@@ -1,0 +1,175 @@
+
+* {
+    margin: 10px;
+    padding: px;
+    box-sizing: border-box; 
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 1px solid red;
+    background-image: url(fondo1);
+    flex-direction: column;
+    
+
+}
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #111;
+    color: white;
+    padding: 10px;
+
+
+            
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 200px;
+    background: #222;
+    color: white;
+    padding: 10px;
+   
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.cabeza{
+    margin: 0px;
+    text-align: center;
+    background-color: blanchedalmond;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 0 50px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 0xp 0xp;
+}
+.contenedor_de_tarjetas{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta{
+    background-color: white;
+    width: 350px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid red;
+    height: 750PX;
+    
+}
+
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    border-radius: 50%; 
+    margin: 0 auto 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.subtitulo {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.habilidades {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 2cap;
+}
+
+.tag {
+    background-color: #e7f3ff;
+    color: #007bff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.btn-contacto {
+    margin-top: 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-contacto:active {
+    background-color: #0056b3;
+}
+
+.foto{
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.footer_abajo{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
