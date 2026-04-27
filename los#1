@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Banda de Rock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h2>Shattered Riffs</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Media</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h1>Rock the Night</h1>
+        <p>Próxima gira 2026</p>
+        <a href="#" class="btn">Ver eventos</a>
+    </section>
+
+    <section class="events">
+        <h2>Próximos eventos</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Ciudad</th>
+                    <th>Lugar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10 Mayo</td>
+                    <td>Madrid</td>
+                    <td>Sol Arena</td>
+                </tr>
+                <tr>
+                    <td>15 Mayo</td>
+                    <td>Barcelona</td>
+                    <td>BCN Hall</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="about">
+        <h2>Sobre la banda</h2>
+        <p>Somos una banda de rock con energía en vivo y pasión por la música.</p>
+
+        <ul>
+            <li>Rock clásico</li>
+            <li>Metal ligero</li>
+            <li>Shows en vivo</li>
+        </ul>
+    </section>
+
+    <section class="multimedia">
+        <h2>Multimedia</h2>
+
+        <div class="grid">
+            <img src="https://via.placeholder.com/150" alt="">
+            <img src="https://via.placeholder.com/150" alt="">
+            <img src="https://via.placeholder.com/150" alt="">
+            <img src="https://via.placeholder.com/150" alt="">
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Shattered Riffs</p>
+</footer>
+
+</body>
+</html>
