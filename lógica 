@@ -1,0 +1,186 @@
+🎸 Landing Page – Banda de Rock
+
+📌 Descripción del proyecto
+
+Este proyecto consiste en el desarrollo de una landing page para una banda de rock llamada Shattered Riffs, utilizando tecnologías básicas de desarrollo web: HTML y CSS.
+
+La página presenta información como próximos eventos, descripción de la banda y contenido multimedia, con un diseño moderno y adaptable a diferentes dispositivos.
+
+---
+
+🎯 Objetivos
+
+- Aplicar etiquetas semánticas de HTML.
+- Utilizar estilos con CSS (Flexbox, Grid y Media Queries).
+- Crear una página responsive (adaptable a móvil y escritorio).
+
+---
+
+🧱 Estructura del proyecto
+
+/proyecto
+│── index.html
+│── style.css
+│── README.md
+
+---
+
+🖥️ Tecnologías utilizadas
+
+- HTML5 → estructura del sitio
+- CSS3 → estilos y diseño
+
+---
+
+📄 Estructura HTML
+
+El archivo "index.html" está organizado de forma semántica:
+
+🔹 Header
+
+Contiene:
+
+- Logo de la banda
+- Menú de navegación
+
+<header>
+    <h2>Shattered Riffs</h2>
+    <nav>...</nav>
+</header>
+
+---
+
+🔹 Hero Section
+
+Sección principal con impacto visual:
+
+- Título llamativo
+- Descripción
+- Botón (call to action)
+
+<section class="hero">
+    <h1>Rock the Night</h1>
+    <a href="#" class="btn">Ver eventos</a>
+</section>
+
+---
+
+🔹 Sección de eventos
+
+Se utiliza una tabla HTML con:
+
+- "<thead>" para encabezados
+- "<tbody>" para contenido
+
+<table>
+    <thead>...</thead>
+    <tbody>...</tbody>
+</table>
+
+---
+
+🔹 Sección "Sobre la banda"
+
+Incluye:
+
+- Descripción
+- Lista no ordenada ("<ul>")
+
+---
+
+🔹 Sección Multimedia
+
+Se implementa con CSS Grid para organizar imágenes.
+
+---
+
+🔹 Footer
+
+Contiene información básica del sitio.
+
+---
+
+🎨 Estilos CSS
+
+El archivo "style.css" maneja:
+
+🔹 Reset básico
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+---
+
+🔹 Diseño general
+
+- Fondo oscuro (#0b0b0f)
+- Texto claro (#f5f5f5)
+- Tipografía simple
+
+---
+
+🔹 Layout
+
+✔ Flexbox (Header)
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+---
+
+✔ Grid (Multimedia)
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+---
+
+🔹 Responsive Design
+
+Se usa media query para adaptar el diseño:
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+---
+
+📱 Diseño Responsive
+
+El sitio se adapta a:
+
+- 📺 Escritorio (layout amplio)
+- 📱 Móvil (contenido en columna)
+
+---
+
+✅ Conclusiones
+
+Este proyecto permitió:
+
+- Comprender la estructura básica de una página web.
+- Aplicar estilos modernos con CSS.
+- Crear una interfaz visualmente atractiva y funcional.
+
+---
+
+🚀 Posibles mejoras
+
+- Agregar animaciones con CSS
+- Integrar contenido multimedia real
+- Mejorar la organización visual
+
+---
+
+👤 Autor
+
+Proyecto realizado por: [Tu nombre aquí]
